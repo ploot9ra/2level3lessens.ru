@@ -1,0 +1,164 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e4bcd557f040915568c86d32face12bc",
+    "packages": [
+        {
+            "name": "0k/php-oe-json",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/0k/php-oe-json.git",
+                "reference": "8dae0e724acc9fdbc57513b434a186299acdcf66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/0k/php-oe-json/zipball/8dae0e724acc9fdbc57513b434a186299acdcf66",
+                "reference": "8dae0e724acc9fdbc57513b434a186299acdcf66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "tivoka/tivoka": "3.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpOeJson\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valentin Lab",
+                    "email": "valentin.lab@kalysto.org",
+                    "homepage": "http://vaab.blog.kal.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "OpenERP Json query",
+            "homepage": "https://github.com/0k/php-oe-json",
+            "keywords": [
+                "OpenERP"
+            ],
+            "time": "2014-01-28T08:44:39+00:00"
+        },
+        {
+            "name": "facebook/php-sdk-v4",
+            "version": "5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                },
+                "files": [
+                    "src/Facebook/polyfills.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/php-graph-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "abandoned": "facebook/graph-sdk",
+            "time": "2018-12-11T22:56:31+00:00"
+        },
+        {
+            "name": "tivoka/tivoka",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelklehr/tivoka.git",
+                "reference": "3d4525bed0abe2e8c59be4d8e11382d671b5bedd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelklehr/tivoka/zipball/3d4525bed0abe2e8c59be4d8e11382d671b5bedd",
+                "reference": "3d4525bed0abe2e8c59be4d8e11382d671b5bedd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Tivoka": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Klehr",
+                    "email": "mklehr@gmx.net"
+                }
+            ],
+            "description": "The universal JSON-RPC client/server library. JSON-RPC done right!",
+            "homepage": "http://marcelklehr.github.com/tivoka",
+            "keywords": [
+                "api",
+                "json",
+                "json-rpc",
+                "rpc",
+                "xml-rpc"
+            ],
+            "time": "2014-01-08T21:08:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

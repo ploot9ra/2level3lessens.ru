@@ -1,0 +1,16 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "0k/php-oe-json": "0.0.2",
+    "facebook/php-sdk-v4": "5.7.0"
+  }
+}
